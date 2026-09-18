@@ -8,7 +8,7 @@ app.get('/health', (req, res) => {
 
 app.get('/api/hello', (req, res) => {
   const name = req.query.name || 'World';
-  res.status(200).json({ message: `Hello, ${name}!` });
+  res.status(200).json({ message: `Hi there, ${name}!` });
 });
 
 app.listen(PORT, () => {
