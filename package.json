@@ -1,0 +1,16 @@
+{
+  "name": "demo-cicd",
+  "version": "1.0.0",
+  "description": "A minimal Node.js app for demonstrating CI/CD",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
